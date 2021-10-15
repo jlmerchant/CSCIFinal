@@ -1,0 +1,88 @@
+@charset "utf-8";
+/*Midterm Project
+Author: Jordyn Merchant
+Filename: family_styles.css*/
+/*Div Styles*/
+aside {
+    color: silver;
+    font-size: 14pt;
+    float: right;
+    width: 40%;
+    display: flex;
+    flex-flow: row wrap;
+    font-weight: normal;
+    background:  rgb(89, 85, 92);
+    border: solid rgb(68, 65, 68) 3px;;
+}
+aside nav {
+    font-weight: normal;
+    font-size: 12pt;
+    flex: 1 1 400px;
+    margin: 5px;
+    padding: 4px;
+    text-align: center;
+}
+aside h2 {
+    font-size: 14pt;
+    font-weight: bold;
+    text-align: center;
+    margin: 8px;
+}
+/*Body Styles*/
+p {
+    padding: 8px;
+    margin: 5px;
+}
+article > div > img {
+    flex: 1 1 100px;
+    width:40%;
+    margin: 5px;
+}
+article > p > video {
+    flex: 1 1 100px;
+    width: 20%;
+    margin: 5px;
+    display: flex;
+    flex-flow: row wrap;
+    width: 20%;
+    float: left;
+}
+h1 {
+    font-size: 40pt;
+    font-family: Georgia,italic;
+    color: silver;
+    text-shadow: rgb(10, 24, 23) 5px 3px 1px,
+    rgba(21, 21, 21, 70%) 8px 8px 20px;
+    width: 100%;
+    line-height: 90px;
+    text-align: center;
+}
+h2 {
+    font-size: 14pt;
+    font-style: italic;
+    font-family: cursive;
+    text-align: center;
+}
+article {
+    -webkit-flex: 3 1 361px;
+    flex: 3 1 361px;
+}
+/*List Styles*/
+#trees {
+    color: rgb(32, 32, 34);
+    border: 3px;
+    font: medium;
+    font-size: 13pt;
+}
+#links {
+    color: rgb(32, 32, 34);
+    border: 5px;
+    font: oblique;
+    font-size: 12pt;
+}
+#dna {
+    color: rgb(32, 32, 34);
+    border: 5px;
+    font: oblique;
+    font-size: 12pt;
+}

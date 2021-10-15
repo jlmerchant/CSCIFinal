@@ -1,0 +1,33 @@
+@charset "utf-8";
+/*Midterm Project
+Author: Jordyn Merchant
+Filename: information.css*/
+h1 {
+    text-align: center;
+    font-size: 30pt;
+    font-family: Georgia, italic, bookman old style;
+    color: rgb(218, 201, 231);
+    text-shadow: rgb(35, 53, 58), rgba(21, 21, 21, 70%);
+}
+p {
+    margin: 6px;
+    padding: 4px;
+}
+form#add {
+    border: 5px solid rgb(59, 53, 83);
+    width: 100%;
+    display: block;
+    float: left;
+    font-size: 14pt;
+    margin: 8px;
+    padding: 5px;
+}
+form#add > input {
+    width: 95%;
+    height: 10px;
+    margin: 5px;
+    padding: 3px;
+}
+form#czechinfo > input#addI {
+    height: 100px;
+}
